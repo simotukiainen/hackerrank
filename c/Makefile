@@ -1,7 +1,8 @@
 CC=cc
 CFLAGS=-std=c90
 
-PROGRAMS=simple-array-sum time-conversion absolute-element-sums
+PROGRAMS=simple-array-sum time-conversion absolute-element-sums \
+		 a-very-big-sum
 
 TARGETS=$(PROGRAMS)
 
