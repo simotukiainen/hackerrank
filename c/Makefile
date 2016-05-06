@@ -2,7 +2,7 @@ CC=cc
 CFLAGS=-std=c90
 
 PROGRAMS=simple-array-sum time-conversion absolute-element-sums \
-		 a-very-big-sum
+		 a-very-big-sum diagonal-difference
 
 TARGETS=$(PROGRAMS)
 
