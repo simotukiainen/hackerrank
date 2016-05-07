@@ -3,7 +3,7 @@ CFLAGS=-std=c90
 
 PROGRAMS=simple-array-sum time-conversion absolute-element-sums \
 		 a-very-big-sum diagonal-difference plus-minus staircase \
-		 easy-sum
+		 easy-sum pairwise-sum-and-divide
 
 TARGETS=$(PROGRAMS)
 
