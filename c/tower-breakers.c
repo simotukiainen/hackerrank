@@ -8,7 +8,11 @@ main()
 	while (t-- > 0) {
 		scanf("%ld", &n);
 		scanf("%ld", &m);
-		printf("%ld\n", (n + 1) % 2 + 1);
+		if (m == 1) {
+			printf("2\n");
+		} else {
+			printf("%ld\n", (n + 1) % 2 + 1);
+		}
 	}
 	return 0;
 }
