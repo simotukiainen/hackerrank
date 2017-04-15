@@ -1,5 +1,5 @@
 CC=cc
-CFLAGS=-std=c90 -Wall
+CFLAGS=-std=c99 -Wall -Wextra -Wpedantic
 
 PROGRAMS=simple-array-sum time-conversion absolute-element-sums \
 		 a-very-big-sum diagonal-difference plus-minus staircase \
