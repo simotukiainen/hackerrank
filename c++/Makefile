@@ -14,5 +14,5 @@ two-characters: two-characters.cc
 	$(CC) $(CFLAGS) -o $@ two-characters.cc
 
 clean:
-	rm $(TARGETS)
+	rm -f $(TARGETS)
 

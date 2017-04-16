@@ -17,5 +17,4 @@ $(TARGETS): %: %.c
 	$(CC) $(CFLAGS) -o $@ $@.c
 
 clean:
-	rm $(TARGETS)
-
+	rm -f $(TARGETS)
